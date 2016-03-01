@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>短网址</title>
+<meta http-equiv="library" content="" />
+<link rel="shortcut icon" href="img/favicon.ico">
+<script type="text/javascript" src="public/YouShuAN.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+$(function () {
+	init();
+});
+
+</script>
+</head>
+<body>
+                   
+   <div class="bd-ys-firs">
+   		<div class="page-header">
+   	    	<h1 class="text-center">短了个网了个址</h1>
+   	    </div>
+  	<div class="container bd-ys-firs" >
+		<div class="form-group">
+	       <input type="text" class="form-control" placeholder="请输入网址"  id="url" name="url" required autofocus>
+        </div>
+        <div class="row">
+        	<div class="col-md-3">
+		        <select class="form-control domain-select" id="domain">
+				</select>
+			</div>
+			<div class="col-md-7">
+				<input type="text" class="form-control alias" placeholder="自定义短网址"  id="alias" name="alias" required autofocus value="">
+				&nbsp;&nbsp;<a href="javascript:toggleAlias()"><u>自定义网址</u></a>
+		    </div>
+			<br/>  
+			<br/>  
+		</div>
+		<div class="text-right submit-div">
+			<button class="btn btn-primary" type="button" id="submitBtn" onclick="onSubmit()">提交</button>
+		</div>
+        
+        <br/>  
+           <div class="form-group">  
+	        <div id="datas">     
+	            <div class="bd-ys-firs" >
+			        <div class="alert" id="result">
+			        </div>
+		        </div> 
+            </div> 
+           </div>
+    </div> 
+   </div> 
+   
+</body>
+</html>
