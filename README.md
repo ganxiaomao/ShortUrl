@@ -1,5 +1,5 @@
 # ShortUrl
-Java分布式短网址服务，服务器间使用Netty通信。分布式架构练手项目。<br />
+Java分布式短网址服务，服务间使用Netty通信。分布式学习练手项目。<br />
 <br />
 1.ShortUrlServer，负责短网址的创建和查询，处理Dns和Web的请求。<br />
 2.ShortUrlDns，内置Jetty，负责短网址解析跳转，调用Server。<br />
