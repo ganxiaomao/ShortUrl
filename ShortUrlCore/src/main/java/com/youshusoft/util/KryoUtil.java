@@ -31,9 +31,9 @@ public class KryoUtil {
 	 * @param c
 	 * @return
 	 */
-	public static Object deserialization(byte[] b,Class c){
+	public static <T> T deserialization(byte[] b,Class<T> c){
 		Input input = new Input(new ByteArrayInputStream(b));
-		Object object = kryo.readObject(input, c);
+		T object = kryo.readObject(input, c);
 		return object;
 	}
 }

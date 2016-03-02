@@ -40,14 +40,12 @@
 			<domain>localhost</domain>
 			<serverGroup>g1</serverGroup>
 		</web>
-		<!-- 
 		<web>
 			<id>2</id>
 			<name>海外地区</name>
 			<domain>127.0.0.1</domain>
 			<serverGroup>g2</serverGroup>
 		</web>
-		 -->
 	</webs>
 	<dnses>
 		<dns>

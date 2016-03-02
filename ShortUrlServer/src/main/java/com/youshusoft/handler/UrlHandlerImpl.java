@@ -4,7 +4,6 @@ package com.youshusoft.handler;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.youshusoft.conts.CodeConts;
 import com.youshusoft.data.UrlInfo;
 import com.youshusoft.netty.NettyHandler;
 import com.youshusoft.netty.ResData;

@@ -39,7 +39,7 @@ public class UrlInfo extends RedisData{
 		return KryoUtil.serialize(this);
 	}
 	public void read(byte[] b){
-		UrlInfo su = (UrlInfo) KryoUtil.deserialization(b, UrlInfo.class);
+		UrlInfo su = KryoUtil.deserialization(b, UrlInfo.class);
 		this.setShortUrl(su.getShortUrl());
 		this.setLongUrl(su.getLongUrl());
 	}
