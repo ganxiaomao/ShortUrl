@@ -1,5 +1,6 @@
 package com.youshusoft.start;
 
+
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -10,6 +11,7 @@ import com.youshusoft.handler.DnsHandler;
 import com.youshusoft.util.Config;
 import com.youshusoft.util.Config.DnsConfig;
 import com.youshusoft.util.ServerHelper;
+
 
 public class StartDns {
 	private static Logger logger = Logger.getLogger(StartDns.class);

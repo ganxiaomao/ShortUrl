@@ -5,10 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
-	    <groupId>org.eclipse.jetty.aggregate</groupId>
-	    <artifactId>jetty-all</artifactId>
-	    <version>9.3.0.M2</version>
+		<groupId>org.eclipse.jetty</groupId>
+		<artifactId>jetty-server</artifactId>
+		<version>9.2.15.v20160210</version>
 	</dependency>
+
 	<dependency>
    	  <groupId>com.youshusoft</groupId>
 	  <artifactId>ShortUrlServer</artifactId>
