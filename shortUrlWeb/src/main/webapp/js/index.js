@@ -24,13 +24,13 @@ function showService(res){
 function onSubmit(){
 	var serverId = $("#domain").val();
 	if(serverId == ""){
-		alert("请选择服务器");
+		error("请选择服务器");
 		$("#datas").css("display", "none");// display
 		return;
 	}
 	var url = $("#url").val();
 	if(url == ""){
-		alert("请输入网址");
+		error("请输入网址");
 		$("#datas").css("display", "none");// display
 		return;
 	}
